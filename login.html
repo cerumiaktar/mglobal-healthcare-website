@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Daisy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <section class="bg-base-100 shadow-sm">
+        <div class="navbar container mx-auto">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 text-base p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Doctors</a></li>
+                        <li>
+                            <a>Treatments</a>
+                            <ul class="p-2 w-52">
+                                <li><a>Cardiology</a></li>
+                                <li><a>Critical Care</a></li>
+                                <li><a>ENT</a></li>
+                                <li><a>Eye Care</a></li>
+                                <li><a>IVF and Infertility</a></li>
+                                <li><a>Liver Transplant</a></li>
+                                <li><a>Nephrology</a></li>
+                                <li><a>Neurology</a></li>
+                            </ul>
+                        </li>
+                        <li><a>About</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <a class=""><img src="https://i.ibb.co/7NGxdgNv/healthcare-logo-1-1.png" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-base">
+                    <li><a>Home</a></li>
+                    <li><a>Doctors</a></li>
+                    <li>
+                        <details>
+                            <summary>Treatments</summary>
+                            <ul class="p-2 w-52">
+                                <li><a>Cardiology</a></li>
+                                <li><a>Critical Care</a></li>
+                                <li><a>ENT</a></li>
+                                <li><a>Eye Care</a></li>
+                                <li><a>IVF and Infertility</a></li>
+                                <li><a>Liver Transplant</a></li>
+                                <li><a>Nephrology</a></li>
+                                <li><a>Neurology</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn text-base bg-[#6A1C29] text-white">Login</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="hero bg-base-200 min-h-screen">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <div class="text-center lg:text-left">
+                    <h1 class="text-5xl font-bold">Login now!</h1>
+                    <p class="py-6">
+                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                        quasi. In deleniti eaque aut repudiandae et a id nisi.
+                    </p>
+                </div>
+                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div class="card-body">
+                        <fieldset class="fieldset">
+                            <label class="label">Email</label>
+                            <input type="email" class="input" placeholder="Email" />
+                            <label class="label">Password</label>
+                            <input type="password" class="input" placeholder="Password" />
+                            <div><a class="link link-hover">Forgot password?</a></div>
+                            <button class="btn btn-neutral mt-4">Login</button>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
