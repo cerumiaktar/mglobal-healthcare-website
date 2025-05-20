@@ -1,11 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms and Condition Page</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Daisy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+
+<body></body>
+<header>
+    <!-- Navbar -->
+    <section class="bg-base-100 shadow-sm">
+        <div class="navbar container mx-auto">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 text-base p-2 shadow">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a>Doctors</a></li>
+                        <li>
+                            <a>Treatments</a>
+                            <ul class="p-2 w-52">
+                                <li><a>Cardiology</a></li>
+                                <li><a>Critical Care</a></li>
+                                <li><a>ENT</a></li>
+                                <li><a>Eye Care</a></li>
+                                <li><a>IVF and Infertility</a></li>
+                                <li><a>Liver Transplant</a></li>
+                                <li><a>Nephrology</a></li>
+                                <li><a>Neurology</a></li>
+                            </ul>
+                        </li>
+                        <li><a>About</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <a><img src="https://i.ibb.co/7NGxdgNv/healthcare-logo-1-1.png" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-base">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a>Doctors</a></li>
+                    <li>
+                        <details>
+                            <summary>Treatments</summary>
+                            <ul class="p-2 w-52">
+                                <li><a>Cardiology</a></li>
+                                <li><a>Critical Care</a></li>
+                                <li><a>ENT</a></li>
+                                <li><a>Eye Care</a></li>
+                                <li><a>IVF and Infertility</a></li>
+                                <li><a>Liver Transplant</a></li>
+                                <li><a>Nephrology</a></li>
+                                <li><a>Neurology</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn text-base bg-[#6A1C29] text-white" href="login.html">Login</a>
+            </div>
+        </div>
+    </section>
+</header>
+<main>
+    <h1 class="text-center text-3xl font-medium mt-16">Terms and Condition</h1>
+    <!-- Terms and Condition Page -->
+    <section class="container mx-auto mt-16 mb-16">
+        <div class="mb-6">
+            <h1 class="text-2xl font-medium mb-2">Acceptance of Terms</h1>
+            <p class="text-[#666666]">By accessing and using this website, you agree to comply with and be bound by
+                the
+                following terms and conditions. If you do not agree, please do not use this website.</p>
+        </div>
+        <div class="mb-6">
+            <h1 class="text-2xl font-medium mb-2">Medical Disclaimer</h1>
+            <ul class="text-[#666666] list-disc ml-8">
+                <li>This website provides general information related to health and wellness.</li>
+                <li>It does not replace professional medical advice, diagnosis, or treatment. Always consult your
+                    doctor
+                    or a qualified healthcare provider for medical issues.</li>
+                <li>We are not liable for any decisions made based on the content of this website.</li>
+            </ul>
+        </div>
+        <div class="mb-6">
+            <h1 class="text-2xl font-medium mb-2">Eligibility</h1>
+            <p class="text-[#666666]">You must be at least 18 years old to use this website. By using it, you
+                confirm
+                that you meet this requirement.</p>
+        </div>
+        <div class="mb-6">
+            <h1 class="text-2xl font-medium mb-2">User Responsibilities</h1>
+            <ul class="text-[#666666] list-disc ml-8">
+                <li>You agree to use the site for lawful purposes only.</li>
+                <li>You must not use the site to distribute malware, spam, or engage in any activity that could harm
+                    other users.</li>
+            </ul>
+        </div>
+        <div class="mb-6">
+            <h1 class="text-2xl font-medium mb-2">Privacy</h1>
+            <p class="text-[#666666]">Our use of your personal data is governed by our Privacy Policy. Please review it
+                to understand how your data is collected and used.</p>
+        </div>
+        <div class="mb-6">
+            <h1 class="text-2xl font-medium mb-2">Intellectual Property</h1>
+            <p class="text-[#666666]">All content, logos, graphics, and trademarks on this site are owned by [Your Company Name] and protected by copyright laws. You may not reproduce, distribute, or use our content without permissionz.</p>
+        </div>
+        <div class="mb-6">
+            <h1 class="text-2xl font-medium mb-2">Third-Party Links</h1>
+            <p class="text-[#666666]">We may include links to third-party websites. We are not responsible for the content, privacy policies, or practices of any third-party sites.</p>
+        </div>
+        <div class="mb-6">
+            <h1 class="text-2xl font-medium mb-2">Limitation of Liability</h1>
+            <p class="text-[#666666]">We are not liable for any direct, indirect, incidental, or consequential damages arising out of the use or inability to use this website.</p>
+        </div>
+        <div class="mb-6">
+            <h1 class="text-2xl font-medium mb-2">Changes to Terms</h1>
+            <p class="text-[#666666]">We may update these Terms and Conditions at any time without prior notice. Continued use of the site after changes indicates acceptance of the new terms.</p>
+        </div>
+    </section>
+</main>
+<!-- This is Footer Section -->
+<footer class="bg-[#6A1C294D]">
+    <footer class="footer sm:footer-horizontal container mx-auto text-base-content p-10">
+        <aside>
+            <img src="https://i.ibb.co/7NGxdgNv/healthcare-logo-1-1.png" alt="logo">
+            <p>
+                Your trusted partner in ensuring <br> comprehensive medical and <br> travel assistance
+            </p>
+        </aside>
+        <nav>
+            <h6 class="footer-title">About</h6>
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">FAQ</a>
+            <a class="link link-hover">Career</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Useful Links</h6>
+            <a class="link link-hover">Privacy Policy</a>
+            <a class="link link-hover">Terms & Condition</a>
+            <a class="link link-hover">Support</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Follow Us</h6>
+            <a class="link link-hover">Facebook</a>
+            <a class="link link-hover">Instagram</a>
+            <a class="link link-hover">Youtube</a>
+        </nav>
+    </footer>
+</footer>
 </body>
+
 </html>
