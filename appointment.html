@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Page</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Daisy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <section class="bg-base-100 shadow-sm">
+            <div class="navbar container mx-auto">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 text-base p-2 shadow">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a>Doctors</a></li>
+                            <li>
+                                <a>Treatments</a>
+                                <ul class="p-2 w-52">
+                                    <li><a>Cardiology</a></li>
+                                    <li><a>Critical Care</a></li>
+                                    <li><a>ENT</a></li>
+                                    <li><a>Eye Care</a></li>
+                                    <li><a>IVF and Infertility</a></li>
+                                    <li><a>Liver Transplant</a></li>
+                                    <li><a>Nephrology</a></li>
+                                    <li><a>Neurology</a></li>
+                                </ul>
+                            </li>
+                            <li><a>About</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a><img src="https://i.ibb.co/7NGxdgNv/healthcare-logo-1-1.png" alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-base">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a>Doctors</a></li>
+                        <li>
+                            <details>
+                                <summary>Treatments</summary>
+                                <ul class="p-2 w-52">
+                                    <li><a>Cardiology</a></li>
+                                    <li><a>Critical Care</a></li>
+                                    <li><a>ENT</a></li>
+                                    <li><a>Eye Care</a></li>
+                                    <li><a>IVF and Infertility</a></li>
+                                    <li><a>Liver Transplant</a></li>
+                                    <li><a>Nephrology</a></li>
+                                    <li><a>Neurology</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li><a>About</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn text-base bg-[#6A1C29] text-white" href="login.html">Login</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- This is Appointment Section -->
+        <section class="container mx-auto mt-16 mb-16">
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="md:w-6/12">
+                    <div class="border py-10 px-10 rounded-2xl bg-white shadow-2xl">
+                        <img class="w-[270px] mx-auto" src="https://i.ibb.co/tMyB0dyD/Rectangle-1.png" alt="">
+                        <h1 class="text-2xl font-medium">Dr. Arianna Clark</h1>
+                        <div class="text-[#666666] flex justify-between items-center mt-2 mb-2">
+                            <p>Qualifications:</p>
+                            <p>MBBS</p>
+                        </div>
+                        <div class="text-[#666666] flex justify-between items-center mb-2">
+                            <p>Speciality:</p>
+                            <p>Medicine</p>
+                        </div>
+                        <div class="text-[#666666] flex justify-between items-center mb-2">
+                            <p>Designation</p>
+                            <p>Doctor</p>
+                        </div>
+                        <div class="text-[#666666] flex justify-between items-center mb-2">
+                            <p>Department Name:</p>
+                            <p>Pediatrics</p>
+                        </div>
+                        <h1 class="text-2xl font-medium mt-4 mb-2">Contact</h1>
+                        <div class="text-[#666666] flex justify-between items-center mb-2">
+                            <p>Phone Number:</p>
+                            <p>01312345678</p>
+                        </div>
+                        <div class="text-[#666666] flex justify-between items-center mb-2">
+                            <p>Off Day:</p>
+                            <p>Fariday</p>
+                        </div>
+                        <div class="text-[#666666] flex justify-between items-center mb-2">
+                            <p>Address:</p>
+                            <p>Mohammadpur, Dhaka</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-6/12 flex">
+                    <div class="border grow py-10 px-10 rounded-2xl bg-white shadow-2xl">
+                        <div class="">
+                            <div class="text-center mb-2">
+                                <h1 class="text-2xl font-medium md:text-left">Appointment Information</h1>
+                            </div>
+                            <fieldset class="fieldset space-y-4 ">
+                                <input type="text" class="input w-full" placeholder="Patient Name" />
+                                <input type="text" class="input w-full" placeholder="Phone Number" />
+                                <input type="email" class="input w-full" placeholder="Email" />
+                                <input type="date" class="input text-[#666666] w-full" placeholder="Date" />
+                                <input type="text" class="input w-full" placeholder="Gender" list="browsers" />
+                                <datalist id="browsers">
+                                    <option value="Male"></option>
+                                    <option value="Female"></option>
+                                    <option value="Other"></option>
+                                </datalist>
+                                <textarea class="textarea w-full" placeholder="Message"></textarea>
+                                <button class="btn bg-[#6A1C29] text-white ">Submit</button>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
